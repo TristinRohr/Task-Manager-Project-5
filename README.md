@@ -35,12 +35,12 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 
 ### Contact
-- For any inquiries or support, please contact [tristist@gmail.com].
+For any inquiries or support, please contact [tristist@gmail.com].
 
 ---
 
 ### Screenshots of Function
-Screen shots of the webpage functioning
+Screenshots of the webpage functioning
 ![](<Assets/screenshots/Screenshot 2024-05-01 at 9.19.29 PM.png>)
 ![](<Assets/screenshots/Screenshot 2024-05-01 at 9.20.17 PM.png>)
 ![](<Assets/screenshots/Screenshot 2024-05-01 at 9.21.56 PM.png>)
