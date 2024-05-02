@@ -37,7 +37,7 @@ $(document).ready(function () {
       const cardDueDate = $('<p>').addClass('card-text').text(project.dueDate);
       const cardDeleteBtn = $('<button>').addClass('btn btn-danger delete').text('Delete').attr('data-project-id', project.id);
       cardDeleteBtn.on('click', handleDeleteProject);
-      const today = dayjs();
+      const today = dayjs().startOf('day');
       const dueDate = dayjs(project.dueDate, 'YYYY-MM-DD');
       const daysDifference = dueDate.diff(today, 'days');
       if (daysDifference < 0) {

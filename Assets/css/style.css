@@ -13,4 +13,80 @@ body {
 
 .task-card:hover {
   cursor: grab;
+} */
+/* Global Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  border: none;
+}
+
+.lane {
+  min-height: 300px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+
+.project-card {
+  margin-bottom: 10px;
+}
+
+/* Task Form Styles */
+.modal-content {
+  border-radius: 10px;
+}
+
+/* Navbar Styles */
+header {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+/* Button Styles */
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+/* Card Styles */
+.card-header {
+  background-color: #f8f9fa;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+/* Lane Styles */
+.lane {
+  margin-bottom: 20px;
+}
+
+/* Card Color Based on Status */
+.bg-danger {
+  background-color: #f8d7da !important;
+}
+
+.bg-warning {
+  background-color: #fff3cd !important;
+}
+
+.bg-white {
+  background-color: #fff !important;
+}
+
+#done.ui-droppable .project-card{
+  background-color: white !important;
 }
